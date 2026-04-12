@@ -50,6 +50,9 @@ export default defineNuxtConfig({
         { name: 'twitter:title', content: 'Brother Meat Shop - Distributor & Supplier Daging Jakarta' },
         { name: 'twitter:description', content: 'Distributor dan supplier daging maupun frozen food berkualitas di Jakarta. 100% fresh dan halal. Pesan sekarang untuk layanan cepat dan terpercaya.' },
         { name: 'twitter:image', content: 'https://brothermeatshop.vercel.app/og-image.webp' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
       ]
     }
   }
