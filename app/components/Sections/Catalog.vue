@@ -6,7 +6,7 @@
         <h2 class="text-3xl md:text-5xl font-heading font-black mb-10 md:mb-16">Katalog Pilihan</h2>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div v-for="item in catalogItems" :key="item.id" class="bg-white rounded-lg overflow-hidden">
+        <div v-for="item in catalogItems" :key="item.id" class="bg-white rounded-lg overflow-hidden shadow hover:shadow-md transition duration-300">
           <img :src="item.image" alt="Product Image" class="w-full h-80 object-cover">
           <div class="flex flex-col justify-between p-8 h-52">
             <div class="">

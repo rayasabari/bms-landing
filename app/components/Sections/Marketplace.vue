@@ -6,17 +6,17 @@
         <p class="font-sans text-gray-600 text-lg">Pesan sekarang melalui platform e-commerce terpercaya
           untuk kemudahan pengiriman dan berbagai promo menarik.</p>
         <div class="flex flex-col md:flex-row gap-4 md:gap-6">
-          <a href="https://www.tokopedia.com/brothermeatshop" target="_blank" class="flex items-center justify-between bg-gray-200 rounded-xl p-5 w-full">
+          <a href="https://shopee.co.id/brothermeatshop" target="_blank" class="flex items-center justify-between bg-orange-600 text-white rounded-xl p-5 w-full">
             <div class="flex items-center gap-4">
-              <img src="/icons/tokopedia.svg" alt="Tokopedia Logo" class="size-8">
-              <p>Tokopedia</p>
+              <img src="/icons/shopee.svg" alt="Shopee Logo" class="size-8 text-white">
+              <p class="font-medium text-lg">Shopee</p>
             </div>
             <Icon name="mdi:open-in-new" size="22" />
           </a>
-          <a href="https://shopee.co.id/brothermeatshop" target="_blank" class="flex items-center justify-between bg-gray-200 rounded-xl p-5 w-full">
+          <a href="https://www.tokopedia.com/brothermeatshop" target="_blank" class="flex items-center justify-between bg-green-600 text-white rounded-xl p-5 w-full">
             <div class="flex items-center gap-4">
-              <img src="/icons/shopee.svg" alt="Shopee Logo" class="size-8">
-              <p>Shopee</p>
+              <img src="/icons/tokopedia.svg" alt="Tokopedia Logo" class="size-8 text-white">
+              <p class="font-medium text-lg">Tokopedia</p>
             </div>
             <Icon name="mdi:open-in-new" size="22" />
           </a>
