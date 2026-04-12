@@ -7,7 +7,7 @@
             <img src="/images/bms-logo.webp" alt="Brother Meat Shop Logo" class="size-10 rounded-full grayscale">
             <h2 class="text-xl md:text-2xl font-bold font-heading text-gray-300">Brother Meat Shop</h2>
           </div>
-          <p class="font-sans text-gray-400">Toko daging dan makanan beku kurasi,menghadirkan standar kualitas restoran bintang lima langsung ke rumah Anda.</p>
+          <p class="font-sans text-gray-400">Distributor dan supplier daging maupun frozen food berkualitas di Jakarta, menghadirkan standar kualitas bintang lima langsung ke rumah Anda.</p>
           <Credits class="hidden md:block mt-5" />
         </div>
         <div class="w-full md:w-1/3">
