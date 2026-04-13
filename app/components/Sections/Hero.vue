@@ -1,5 +1,6 @@
 <template>
-  <section class="py-20 h-[calc(100dvh-88px)] flex justify-start items-center bg-[linear-gradient(to_right,rgba(255,255,255,0.9),rgba(255,255,255,0)),url('/images/hero-bg.webp')] bg-cover bg-center">
+  <section id="hero"
+    class="scroll-mt-[var(--header-height)] py-20 h-[calc(100dvh-88px)] flex justify-start items-center bg-[linear-gradient(to_right,rgba(255,255,255,0.9),rgba(255,255,255,0)),url('/images/hero-bg.webp')] bg-cover bg-center">
     <div class="container mx-auto px-4 flex items-center">
       <div class="w-full md:w-1/2 flex flex-col gap-6">
         <h3 class="font-heading font-extrabold text-5xl md:text-7xl text-red-900">Daging <br> Segar & <br> Frozen Food Berkualitas</h3>

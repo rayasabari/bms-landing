@@ -2,6 +2,7 @@
   <div>
     <AppHeader />
     <SectionsHero />
+    <SectionsCertified />
     <SectionsCatalog />
     <SectionsMarketplace />
     <SectionsOfflineStore />

@@ -8,7 +8,6 @@
             <h2 class="text-xl md:text-2xl font-bold font-heading text-gray-300">Brother Meat Shop</h2>
           </div>
           <p class="font-sans text-gray-400">Distributor dan supplier daging maupun frozen food berkualitas di Jakarta, menghadirkan standar kualitas bintang lima langsung ke rumah Anda.</p>
-          <Credits class="hidden md:block mt-5" />
         </div>
         <div class="w-full md:w-1/3">
           <h3 class="text-xl md:text-2xl font-heading text-gray-300 font-bold mb-5">Social Media</h3>
@@ -20,9 +19,11 @@
               </a>
             </div>
           </div>
-          <p class="flex items-center font-sans text-gray-400 text-sm mt-6">Copyright &copy; 2026 Brother Meat Shop</p>
-          <Credits class="md:hidden mt-1" />
         </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-start md:divide-x md:divide-gray-400 gap-2 md:gap-0 py-4 mt-4 md:mt-8 border-t border-t-gray-700">
+        <Copyright class="md:pr-2" />
+        <Credits class="md:pl-2" />
       </div>
     </div>
   </footer>
