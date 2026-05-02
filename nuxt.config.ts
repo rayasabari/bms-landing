@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/icon', 'nuxt-aos'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/icon', 'nuxt-aos', 'nuxt-gtag'],
+  gtag: {
+    id: process.env.GOOGLE_ANALYTIC_TAG
+  },
   aos: {
     once: true,
     duration: 1000,
