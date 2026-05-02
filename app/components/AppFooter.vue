@@ -2,17 +2,17 @@
   <footer class="bg-gray-900 py-16 md:py-24">
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-start justify-between gap-12">
-        <div class="w-full md:w-1/2">
+        <div data-aos="fade-in" data-aos-duration="950" class="w-full md:w-1/2">
           <div class="flex items-center gap-4 mb-5">
             <img src="/images/bms-logo.webp" alt="Brother Meat Shop Logo" class="size-10 rounded-full grayscale">
             <h2 class="text-xl md:text-2xl font-bold font-heading text-gray-300">Brother Meat Shop</h2>
           </div>
           <p class="font-sans text-gray-400">Distributor dan supplier daging maupun frozen food berkualitas di Jakarta, menghadirkan standar kualitas bintang lima langsung ke rumah Anda.</p>
         </div>
-        <div class="w-full md:w-1/3">
+        <div data-aos="fade-in" data-aos-delay="150" data-aos-duration="950" class="w-full md:w-1/3">
           <h3 class="text-xl md:text-2xl font-heading text-gray-300 font-bold mb-5">Social Media</h3>
           <div class="flex items-center gap-2">
-            <div v-for="item in socialMedia" :key="item.name"
+            <div v-for="(item, index) in socialMedia" :key="item.name" data-aos="fade-in" :data-aos-delay="200 + (index * 80)"
               class="flex items-center justify-center bg-gray-700 hover:bg-gray-600 shadow-md hover:shadow-lg transition transition-duration-300 rounded-full p-2">
               <a :href="item.url" target="_blank" class="flex items-center justify-center">
                 <Icon :name="item.icon" size="32" class="text-gray-400 hover:text-gray-300 transition duration-300" />

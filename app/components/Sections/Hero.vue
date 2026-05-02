@@ -3,10 +3,10 @@
     class="scroll-mt-[var(--header-height)] py-20 h-[calc(100dvh-88px)] flex justify-start items-center bg-[linear-gradient(to_right,rgba(255,255,255,0.9),rgba(255,255,255,0)),url('/images/hero-bg.webp')] bg-cover bg-center">
     <div class="container mx-auto px-4 flex items-center">
       <div class="w-full md:w-1/2 flex flex-col gap-6">
-        <h3 class="font-heading font-extrabold text-5xl md:text-7xl text-red-900">Daging <br> Segar & <br> Frozen Food Berkualitas</h3>
-        <div class="text-lg md:text-xl font-semibold">Daging halal pilihan, fresh cut setiap hari, <br> dan siap dikirim cepat di hari yang sama.</div>
-        <div class="mt-6">
-          <a href="#catalog" class="bg-red-600 text-white font-heading font-bold text-lg px-8 py-5 rounded-full shadow-xl hover:bg-red-700 transition duration-300">Lihat Katalog</a>
+        <h3 data-aos="fade-up" data-aos-offset="0" data-aos-duration="1200" class="font-heading font-extrabold text-5xl md:text-7xl text-red-900">Daging <br> Segar & <br> Frozen Food Berkualitas</h3>
+        <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="1000" class="text-lg md:text-xl font-semibold">Daging halal pilihan, fresh cut setiap hari, <br> dan siap dikirim cepat di hari yang sama.</div>
+        <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="1000" class="mt-6">
+          <a href="#catalog" @click.prevent="scrollTo('#catalog')" class="bg-red-600 text-white font-heading font-bold text-lg px-8 py-5 rounded-full shadow-xl hover:bg-red-700 transition duration-300">Lihat Katalog</a>
         </div>
       </div>
     </div>
@@ -14,5 +14,11 @@
 </template>
 
 <script setup>
+const { $lenis } = useNuxtApp();
 
+const scrollTo = (target) => {
+  if ($lenis) {
+    $lenis.scrollTo(target, { offset: -88 }); // -88 is header height
+  }
+};
 </script>

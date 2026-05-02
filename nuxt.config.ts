@@ -2,7 +2,15 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/icon'],
+  css: ['~/assets/css/main.css'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/icon', 'nuxt-aos'],
+  aos: {
+    once: true,
+    duration: 1000,
+    easing: 'ease-out-quart',
+    offset: 50, // Kurangi offset agar lebih sensitif di halaman awal
+    delay: 80,
+  },
   fonts: {
     families: [
       {

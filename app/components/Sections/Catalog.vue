@@ -2,11 +2,12 @@
   <section id="catalog" class="scroll-mt-[var(--header-height)] py-16 md:py-24 bg-[#F6F3F2]">
     <div class="container mx-auto px-4">
       <div class="flex flex-col gap-2 md:gap-4">
-        <h5 class="font-heading font-semibold text-red-900 tracking-wide">THE DIGITAL CURATOR</h5>
-        <h2 class="text-3xl md:text-5xl font-heading font-black mb-10 md:mb-16">Katalog Pilihan</h2>
+        <h5 data-aos="fade-up" class="font-heading font-semibold text-red-900 tracking-wide">THE DIGITAL CURATOR</h5>
+        <h2 data-aos="fade-up" data-aos-delay="120" data-aos-duration="1000" class="text-3xl md:text-5xl font-heading font-black mb-10 md:mb-16">Katalog Pilihan</h2>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div v-for="item in catalogItems" :key="item.id" class="bg-white rounded-lg overflow-hidden shadow hover:shadow-md transition duration-300">
+        <div v-for="(item, index) in catalogItems" :key="item.id" data-aos="fade-up" :data-aos-delay="index * 200" data-aos-duration="850"
+          class="bg-white rounded-lg overflow-hidden shadow hover:shadow-md transition duration-300">
           <img :src="item.image" alt="Product Image" class="w-full h-80 object-cover">
           <div class="flex flex-col justify-between p-8 h-52">
             <div class="">

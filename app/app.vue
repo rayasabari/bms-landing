@@ -16,7 +16,8 @@
   --header-height: 88px;
 }
 
-html {
+/* Remove smooth scroll behavior from html since lenis will handle it */
+/* html {
   scroll-behavior: smooth;
-}
+} */
 </style>
